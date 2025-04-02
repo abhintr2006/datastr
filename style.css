@@ -1,0 +1,118 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a2e;
+    color: #fff;
+    text-align: center;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #16213e;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+    height: 40px;
+}
+
+.school-name {
+    font-size: 1.5em;
+    color: #ff4c6b;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+/* Dropdown Menu */
+.dropbtn {
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #16213e;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    min-width: 150px;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Dark Mode Toggle */
+#darkModeToggle {
+    background: none;
+    border: none;
+    font-size: 1.5em;
+    cursor: pointer;
+    color: white;
+    margin-left: 10px;
+}
+
+/* Main Section */
+main {
+    padding: 80px 20px;
+}
+
+h2 {
+    font-size: 2.5em;
+    color: #ff6b6b;
+}
+
+h2 span {
+    color: #ff9a3c;
+}
+
+.cta {
+    background-color: #ff6b6b;
+    color: white;
+    padding: 12px 24px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.cta:hover {
+    background-color: #ff9a3c;
+}
+
+/* Footer */
+footer {
+    background-color: #111;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.social-icons img {
+    width: 30px;
+    margin: 0 10px;
+    transition: transform 0.3s;
+}
+
+.social-icons img:hover {
+    transform: scale(1.1);
+}
